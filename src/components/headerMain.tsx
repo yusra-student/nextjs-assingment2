@@ -33,6 +33,7 @@ const HeaderMain =() =>{
                         0
                     </div>
                     </div>
+                   
 
                     <div className="relative">
                     <HiOutlineShoppingBag />
@@ -40,7 +41,7 @@ const HeaderMain =() =>{
                         0
                     </div>
 
-
+                    <BiUser />
 
                     </div>
         </div>

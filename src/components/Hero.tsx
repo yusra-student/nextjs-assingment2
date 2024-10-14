@@ -1,4 +1,6 @@
 "use client";
+// Remove this if not used
+import { BiUser } from 'react-icons/bi';
 
 
 import React from 'react'

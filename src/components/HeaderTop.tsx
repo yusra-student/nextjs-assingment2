@@ -1,4 +1,6 @@
 import React from "react";
+// Remove this if not used
+import { BiUser } from 'react-icons/bi';
 
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
