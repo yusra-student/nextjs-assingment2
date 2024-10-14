@@ -1,6 +1,22 @@
+//import "slick-carousel/slick/slick.css"; 
+//import "slick-carousel/slick/slick-theme.css";
+//import '../styles/globals.css';  // Your global CSS if any
+
+
+
 import type { Metadata } from "next";
+
 import localFont from "next/font/local";
 import "./globals.css";
+import HeaderTop from "@/components/HeaderTop";
+import HeaderMain from "@/components/headerMain";
+import Navbar from "@/components/Navbar";
+
+
+
+//import "slick-carousel/slick/slick.css";
+//import "slick-carousel/slick/slick-theme.css";
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -12,6 +28,7 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -28,6 +45,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <HeaderTop />
+        <HeaderMain />
+        <Navbar />
+      
         {children}
       </body>
     </html>
