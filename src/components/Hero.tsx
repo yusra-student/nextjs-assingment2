@@ -9,7 +9,7 @@ import Slide from './Slide';
 
 
 const Hero =()=>{
-    var settings ={
+    let settings ={
         dots:true,
         infinite:true,
         slidesTOshow:1,
@@ -21,7 +21,7 @@ const Hero =()=>{
             id:0,
             img:"/public/pic2.jpg",
             title:"trending items",
-            mainTitle:"WOMEN'S LATEST FASHION SALE",
+            mainTitle:"WOMENS LATEST FASHION SALE",
             price:"2000",
         },
         {
@@ -46,6 +46,7 @@ const Hero =()=>{
                     
                 ))}
             </Slider>
+            <BiUser />
             </div>
     )
 }

@@ -1,6 +1,5 @@
 import React from "react";
-// Remove this if not used
-import { BiUser } from 'react-icons/bi';
+
 
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -30,7 +29,7 @@ const HeaderTop =()=>{
                     </div>
                 </div>
                 <div className="text-gray-500 text-[12px]">
-                    <b>FREE SHIPPING</b>THIS WEEK ORDER OVER -55%
+                    <b>FREE SHIPPING</b>THIS WEEK ORDER OVER-55%
                 </div>
 
                 <div className="flex gap-4">
